@@ -7,4 +7,4 @@ for row in range(len(pyramid)-1, 0, -1):
     for col in range(row):
         pyramid[row-1][col] += max(pyramid[row][col], pyramid[row][col+1])
 
-print "Maximum = " +  str(table[0][0])
+print "Maximum = " +  str(pyramid[0][0])
