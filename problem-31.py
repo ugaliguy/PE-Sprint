@@ -9,3 +9,4 @@ for coin in coins:
 		ways_to_make_change[i] += ways_to_make_change[i - coin]
 
 print("Ways to make change for " + str(amount_paid) + " is " + str(ways_to_make_change[amount_paid]))
+# answer is 73682
